@@ -40,6 +40,7 @@ span{
     font-weight: bold;
     background-color: rgb(255,148,18);
     color: aliceblue;
+    cursor: pointer;
 }
 
 .hbanner{
@@ -151,12 +152,6 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.star{
-    width: 80px;
-    height: 80px;
-    margin-top: 15%;
-}
-
 .pnavigate{
     margin-left: 50%;
 }
@@ -264,8 +259,13 @@ gap: 20%;
 
 .reviewstars{
     display: flex;
-    gap: 10%;
+    gap: 23%;
     margin-left: 5%;
+    font-size: 30px;
+}
+
+.stars{
+    color: rgb(255,148,18);
 }
 
 .reviewcontents{
@@ -311,7 +311,7 @@ gap: 20%;
 .over-lay{
  
     position: absolute;
-    top: 452%; 
+    top: 435%; 
     left: 6%;
     color: white;
     font-weight: bolder;
@@ -385,31 +385,106 @@ gap: 20%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
+    margin-top: 5%;
 
 }
 
 .hchoose{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
+    color: aliceblue;
+    padding-top: 10%;
+    font-weight: bolder;
 }
 
 .signups{
     
     display: flex;
-    gap: 25%;
+    gap: 10%;
+    margin-left: 35%;
 }
-.signupbutton{
-    padding: 10px 20px;
+.singnupbutton{
+    padding: 25px 70px;
     color: black;
     background-color: white;
+    border-radius: 40px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
 }
 
 .loginbutton{
-    padding: 10px 20px;
+    padding: 25px 70px;
     color: white;
     background-color: rgb(255,148,18);
+    border-radius: 40px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
 }
 
-.hchoose{
-    margin-top: 10%;
+.footer{
+    margin-top: 5%;
+
+}
+.subscribe{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.input{
+    padding: 20px 127px;
+    font-size: 25px;
+    margin-left: 35%;
+    border-radius: 60px;
+    border-color: rgb(255,148,18);
+
+}
+
+
+.footernavigator{
+
+    font-size: 50px;
+    border: solid black 2px;
+    padding: 5px 10px;
+    border-radius: 200px;
+    border-color: rgb(255,148,18);
+    background-color: rgb(255,148,18);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 583.7%;
+    left: 63%;
+
+}
+
+
+.brandcontent{
+    font-size: 25px;
+    margin-left: 15%;
+    color: rgb(64,64,64);
+
+}
+
+.picons{
+    display: flex;
+    gap: 3%;
+    margin-left: 15%;
+}
+
+.footercontent{
+    display: flex;
+    gap: 15%;
+}
+
+.footers{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(64,64,64);
+}
+
+.pfooter{
+    color: rgb(64,64,64);
+    text-align: center;
 }
